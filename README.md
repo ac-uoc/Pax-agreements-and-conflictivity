@@ -9,6 +9,8 @@ https://youtu.be/hVimVzgtD6w
 
 que presenta l'evolució global d'una variable, l'esperança de vida, definida per països i regions. Representa l'evolució temporal de la variable, que en aquest cas creix, i canvia de paradigma: de família llarga i vida curta, a família curta i vida llarga. La idea és desenvolupar la visualització de manera que aquest fet quedi patent per a l'espectador.
 
+El resultat és un vídeo mp4 de 41,7 Mb pax-c.mp4 que per requeriment de Github (< 25 Mb) hem hagut de comprimir com a pax-c.7z.
+
 El que hem fet és gastar les dades de la data base de https://www.peaceagreements.org/ d'acords de pau, i deduir del seu ritme de signatura per un mateix país la conflictivitat que pot estar present: ningú que no tingui conflictes signarà un tractat de pau innecessari. Quan hi ha conflictivitat o guerres, eventualment apareixen acords de pau; quan la conflictivitat és baixa els acords són duradors, mentre que si és alta, són efímers.
 
 Les idees surten de la mateixa base de dades, que en trenta-dos anys (entre 1990 i 2021) registra 1915 acords de pau, un 10% signats per un mateix país el mateix dia. En un món sense conflictes, els acords de pau són poc freqüents; diguem menys de 100 en trenta-dos anys. Hem pensat mesurar la conflictivitat com proporcional a la inversa dels dies entre dos acords successius del mateix país.
@@ -19,7 +21,7 @@ de 13 columnes, i el fitxer
 ‘pax_data_1915_agreements_07-12-21.csv'
 de 267 columnes. Triem el primer, que inclou les dades necessàries; el segon afegeix dades majoritàriament administratives.
 
-Només emprem les dades de dates, país i regió. D'aquí es dedueixen altres dades, com a any de signatura o dies entre acords successius del mateix país. Hem tractat les dades en Excel i creat un nou fitxer csv: paxc.csv.
+Només emprem les dades de dates, país i regió. D'aquí es dedueixen altres dades, com a any de signatura o dies entre acords successius del mateix país. Hem tractat les dades en Excel i creat un nou fitxer csv: paxc2.csv.
 
 Podem crear un índex de conflictivitat d'un país que sigui invers a la durada en dies dels seus acords de pau. En la base de dades hi ha registrats diversos acords o acords d'un país en el mateix dia (a vegades sis), o en diversos dies successius: un 10,65% en el mateix dia i un 23,5% en un període de cinc dies successius. Els hem eliminat, mantenint l'última data, considerant que reflecteixen el mateix conflicte.
 
@@ -52,6 +54,8 @@ Hemos seguido la metodología de Hans Rosling de The best stats you'viene ever s
 https://youtu.be/hvimvzgtd6w
 
 que presenta la evolución global de una variable, la esperanza de vida, definida por países y regiones. Representa la evolución temporal de la variable, que en este caso crece, y cambia de paradigma: de familia larga y vida corta, a familia corta y vida larga. La idea es desarrollar la visualización de forma que este hecho quede patente para el espectador.
+
+El resultado es un video mp4 de 41,7 Mb pax-c.mp4 que por requerimiento de Github (< 25Mb) hemos debido comprimir como pax-c.7z.
 
 Lo que hemos hecho es usar los datos de la base de datos de https://www.peaceagreements.org/ de acuerdos de paz, y deducir de las  diferencias de fecha de firma en días, para un mismo país, la conflictividad que puede estar presente: nadie que no tenga conflictos firmará un tratado de paz innecesario. Cuando hay conflictividad o guerras, eventualmente aparecen acuerdos de paz; cuando la conflictividad es baja los acuerdos son duraderos, mientras que si es alta, son efímeros.
 
@@ -96,6 +100,8 @@ We have followed Hans Rosling's methodology from The best stats you've ever seen
 https://youtu.be/hvimvzgtd6w
 
 which presents the global evolution of a variable, life expectancy, defined by countries and regions. It represents the temporal evolution of the variable, which in this case grows, and changes paradigm: from long family and short life, to short family and long life. The idea is to develop the visualization in a way that makes this fact clear to the viewer.
+
+The result is a 41.7 Mb mp4 video pax-c.mp4 that by Github requirement (< 25Mb) we had to compress as pax-c.7z.
 
 What we have done is to use the data from the https://www.peaceagreements.org/ database of peace agreements, and deduce from the differences in the date of signature in days, for the same country, the conflictuality that may be present: no one who has no conflicts will sign an unnecessary peace treaty. When there is conflict or war, peace agreements eventually appear; when conflict is low, agreements are long-lasting, while if it is high, they are ephemeral.
 
