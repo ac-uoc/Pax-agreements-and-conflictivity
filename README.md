@@ -31,6 +31,11 @@ El que podem concloure és que es manté globalment el nivell de conflictivitat,
 
 Si representem el valor de l'índex en funció de la data per al conjunt de totes les dades, podria ser confús: hi ha massa detall. Per això, presentem una animació d'any en any, on es comprova com evoluciona la conflictivitat anual per regions i països.
 
+Visualitzacions interactives
+
+Les visualitzacions interactives estan internament en JavaScript, han estat desenvolupades amb la llibreria Plotly de Python i la sortida és format html: incloses en qualsevol format text es converteixen en imatges no interactives. Han de ser vistes amb un browser (com Firefox) i són d'una grandària sobre 3,5 Gb, per la qual cosa GitHub deixa baixar-los, però no obrir-los en la mateixa web de GitHub. Són els fitxers HTML d'aquesta carpeta i tots ells (els fitxers HTML) han de deixar-se en la mateixa carpeta, si volem obrir-los des del fitxer VisualitzacioInteractiva .html, que explica el contingut de cadascun.
+
+
 La base de dades té uns drets de còpia Creative Commons, https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
@@ -75,7 +80,13 @@ El índice aparece como '1000/ días_entre_acuerdos' en el fichero csv. Hemos co
 
 Si representamos el valor del índice en función de la fecha para el conjunto de todos los datos, podría ser confuso: hay demasiado detalle. Por ello presentamos una animación de año en año, donde se comprueba cómo evoluciona la conflictividad anual por regiones y países, donde las regiones de la base de datos han sido representadas por diferentes colores, y el número de acuerdos de paz firmado por el país en los treinta y dos años, representado por el tamaño de cada punto; ya que más acuerdos de paz sugieren más conflicto. 
 
-Lo que podemos concluir es que se mantiene globalmente el nivel de conflictividad, cambiando de escenario y protagonistas de tanto en tanto. 
+Lo que podemos concluir es que se mantiene globalmente el nivel de conflictividad, cambiando de escenario y protagonistas de tanto en tanto.
+
+
+Visualizaciones interactivas
+
+Las visualizaciones interactivas están internamente en JavaScript, han sido desarrolladas con la librería Plotly de Python y la salida es formato html: incluidas en cualquier formato texto se convierten en imágenes no interactivas. Deben ser vistas con un browser (como Firefox) y son de un tamaño sobre 3,5 Gb, por lo que GitHub deja bajarlos, pero no abrirlos en la propia web de GitHub. Son los ficheros HTML de esa carpeta y todos ellos (los ficheros HTML) deben dejarse en la misma carpeta, si queremos abrirlos desde el fichero VisualitzacioInteractiva.html, que explica el contenido de cada uno.
+
 
 La base de datos tiene unos derechos de copia Creative Commons, https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -91,6 +102,12 @@ University of Edinburgh, Edinburgh. www.peaceagreements.org
 -	Bell, C. and Badanjak, S. (2019):
 ‘Introducing PA-X: A new peace agreement database and dataset’, Journal of Peace Research, 56 (3).
 -	Dr. Nualart: Visualizaciones en la misma web.
+
+
+Interactive visualizations
+
+The interactive visualizations are internally in JavaScript, have been developed with Python's Plotly library and the output is html format: included in any text format they become non-interactive images. They need to be viewed with a browser (like Firefox) and are about 3.5 Gb in size, so GitHub lets you download them, but not open them on GitHub's own website. They are the HTML files in that folder and all of them (the HTML files) must be left in the same folder, if we want to open them from the VisualitzacioInteractiva.html file, which explains the content of each one.
+
 
 
 **Conflicts and Peace Agreements**
